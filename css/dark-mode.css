@@ -1,0 +1,192 @@
+/* ===== DARK MODE STYLES ===== */
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+body.dark-mode header.sticky {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode header.sticky .logo h1,
+body.dark-mode header.sticky nav ul li a {
+    color: #f8f9fa;
+}
+
+body.dark-mode .toggle-ball {
+    transform: translateX(30px);
+}
+
+body.dark-mode .section-header h2 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .about-text h3,
+body.dark-mode .skills-text h3,
+body.dark-mode .tech-logos h3,
+body.dark-mode .contact-info h3,
+body.dark-mode .contact-form h3 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .about-details .detail-item h4,
+body.dark-mode .contact-details .contact-item h4 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .about-details .detail-item p,
+body.dark-mode .contact-details .contact-item p {
+    color: #adb5bd;
+}
+
+body.dark-mode .skill-item h4 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .skill-bar {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode .project-overlay {
+    background: linear-gradient(to bottom, rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.9));
+}
+
+body.dark-mode .project-info h3 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .project-info p {
+    color: #adb5bd;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+    border: 1px solid #444;
+}
+
+body.dark-mode .form-group label {
+    color: #adb5bd;
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group textarea:focus {
+    border-color: var(--primary-color);
+}
+
+body.dark-mode .form-group input:focus ~ label,
+body.dark-mode .form-group textarea:focus ~ label,
+body.dark-mode .form-group input:not(:placeholder-shown) ~ label,
+body.dark-mode .form-group textarea:not(:placeholder-shown) ~ label {
+    color: var(--primary-color);
+}
+
+body.dark-mode footer {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .footer-logo h2,
+body.dark-mode .footer-links h3,
+body.dark-mode .footer-newsletter h3 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .footer-logo p,
+body.dark-mode .footer-newsletter p {
+    color: #adb5bd;
+}
+
+body.dark-mode .footer-links ul li a {
+    color: #adb5bd;
+}
+
+body.dark-mode .footer-links ul li a:hover {
+    color: var(--primary-color);
+}
+
+body.dark-mode .footer-newsletter input {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+    border: 1px solid #444;
+}
+
+body.dark-mode .footer-bottom {
+    border-top: 1px solid #444;
+}
+
+body.dark-mode .footer-bottom p {
+    color: #adb5bd;
+}
+
+body.dark-mode .whatsapp-popup {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .whatsapp-popup-header {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode .whatsapp-user h4 {
+    color: #f8f9fa;
+}
+
+body.dark-mode .whatsapp-user p {
+    color: #adb5bd;
+}
+
+body.dark-mode .whatsapp-popup-body {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .whatsapp-message {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+}
+
+body.dark-mode .whatsapp-message.received {
+    background-color: var(--primary-color);
+}
+
+body.dark-mode .whatsapp-popup-footer input {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+    border: 1px solid #444;
+}
+
+body.dark-mode .whatsapp-popup-footer button {
+    background-color: var(--primary-color);
+}
+
+body.dark-mode .custom-cursor {
+    border-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(248, 249, 250, 0.7);
+    mix-blend-mode: exclusion;
+}
+
+body.dark-mode .custom-cursor.expand {
+    border-color: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode .custom-cursor.click {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(var(--primary-color-rgb), 0.9);
+}
+
+body.dark-mode .custom-cursor-dot {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode .custom-cursor-dot.expand {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 8px rgba(var(--primary-color-rgb), 1);
+}
+
+body.dark-mode .custom-cursor-dot.click {
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 1);
+}
